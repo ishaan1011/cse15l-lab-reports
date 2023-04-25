@@ -133,7 +133,7 @@ public class ArrayTests {
 
 ![Image](tests2.png)
 
-I made the following tests but I wasn't able to successfully run them
+* I made the following tests but I wasn't able to successfully run them
 
 ![Image](tests.png)
 
