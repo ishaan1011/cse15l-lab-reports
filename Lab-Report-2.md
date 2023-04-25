@@ -129,7 +129,11 @@ public class ArrayTests {
 }
 ```
 
-* My test file did not run because of java not accepted JUnit as a valid import. This can be seen in the image below:
+* My test file did not run because of java not accepted JUnit as a valid import. This can be seen in the images below:
+
+![Image](tests2.png)
+
+I made the following tests but I wasn't able to successfully run them
 
 ![Image](tests.png)
 
