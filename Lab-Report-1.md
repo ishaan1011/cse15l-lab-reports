@@ -15,11 +15,11 @@ If you’re on Windows, you first need to install [git for Windows](https://gitf
 ## Step 3: Trying Some Commands
 After logging in, try running some commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp` a few times in different ways, both on your computer, and on the remote computer after ssh-ing.
 Functions of some of these commands are:
-*`cd`: To move between directories
-*`ls`: Displays the contents of the current directory.
-*`pwd`: Writes to standard output the full path name of your current directory (from the root directory)
-*`mkdir`: Creates directories
-*`cp`: Creates a copy of the contents of the file or directory
+* `cd`: To move between directories
+* `ls`: Displays the contents of the current directory.
+* `pwd`: Writes to standard output the full path name of your current directory (from the root directory)
+* `mkdir`: Creates directories
+* `cp`: Creates a copy of the contents of the file or directory
 
 Here are a few commands that I ran and the output that I obtained:
 
