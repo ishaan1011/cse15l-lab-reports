@@ -62,4 +62,6 @@ In the above image, when we succeed the url with “/add-message?s=Hello”,the 
 
 ![Image](hi.png)
 
-## Step 2: Remotely Connecting
+## PART 2: Bugs
+
+I chose the 'ArrayExamples.java' file for this part.
