@@ -15,7 +15,7 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             if (str.isEmpty()){
-                return "String is empty.No message added yet.";
+                return "String empty: No message added yet.";
             }
             else{ return str;
             }
