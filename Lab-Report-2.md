@@ -129,7 +129,9 @@ public class ArrayTests {
 }
 ```
 
-* The last test had a failure-inducing input because it didn’t pass the test.
+* My test file did not run because of java not accepted JUnit as a valid import. This can be seen in the image below:
+
+![Image](tests.png)
 
 ## PART 3: What I Learned
 
