@@ -8,7 +8,7 @@ Open a browser (Safari/Chrome) on your laptop/computer. Search "download Visual 
 ![Image](VScode.png)
 
 ## Step 2: Remotely Connecting
-If you’re on Windows, you first need to install [git for Windows](https://gitforwindows.org/). You then need to follow the steps given in [this post](https://stackoverflow.com/a/50527994) to enable git bash to be used by your default terminal. Then open a new terminal on VScode and type the command `ssh cs15lsp23zz@ieng6.ucsd.edu`, but replace the 'zz' with the letters in your course specific account. If it is your first time logging in, you might get a message saying "Are you sure you want to continue connecting (yes/no/[fingerprint])?". Type "yes". It should then ask for your password and should look something like this:
+If you’re on Windows, you first need to install [git for Windows](https://gitforwindows.org/). You then need to follow the steps given in [this post](https://stackoverflow.com/a/50527994) to enable git bash to be used by your default terminal. Then open a new terminal on VScode and type the command ==`ssh cs15lsp23zz@ieng6.ucsd.edu`==, but replace the 'zz' with the letters in your course specific account. If it is your first time logging in, you might get a message saying "Are you sure you want to continue connecting (yes/no/[fingerprint])?". Type "yes". It should then ask for your password and should look something like this:
 
 ![Image](Commands.png)
 
