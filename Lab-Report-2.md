@@ -44,18 +44,22 @@ class StringServer {
 
 The effect of this code is to concatenate a new line (\n) and the string after '=' to the running string, and then respond with the entire string so far.
 We can run this code by entering:
-`javac Server.java StringServer.java`
-`java StringServer 4000`
+* `javac Server.java StringServer.java`
+* `java StringServer 4000`
 When the code compiles and runs, we will be able to see `Server Started! Visit http://localhost:4000 to visit.` on our terminal.
 
 The page displayed after running this should look like:
 
+![Image](empty.png)
 
 Now we can use the "/add-message" to add text to our webpage. The webpage would look like:
 
+![Image](hello.png)
 
+In the above image, when we succeed the url with “/add-message?s=Hello”,the server displays "Hello".
 
-In the first image, when we succeed the url with “/add-message?s=Hello”,the server displays "Hello".
 Next, when we add “Hi”, it displays "Hello" and "Hi" in different lines.
+
+![Image](hi.png)
 
 ## Step 2: Remotely Connecting
