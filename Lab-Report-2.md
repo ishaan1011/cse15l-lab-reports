@@ -69,5 +69,6 @@ I chose the `ArrayExamples.java` file for this part.
 ## PART 3: What I Learned
 
 * During Week 2, I gained more knowledge on establishing and operating my personal server using a URL. I found the concepts of ports and local host within the URL quite captivating. Additionally, it was fascinating to observe that when we connected our devices to the remote computer, we could witness each other's updates made to our individual servers, appearing on our respective computers.
+
 * During Week 3, I learned about how bugs in the program can lead to failure in getting our desired output from the code.
 
