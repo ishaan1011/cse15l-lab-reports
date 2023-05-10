@@ -52,15 +52,25 @@ We can run this code by entering:
 
 ![Image](empty.png)
 
-Now we can use the "/add-message" to add text to our webpage. The webpage would look like:
+* The reason for displaying this message is that the "handleRequest" method was invoked. It verifies the initial condition, which further examines the nested condition to determine if the string "str" is devoid of any content. As a result of the string "str" being empty, the message "String is empty. No message added yet." was shown.
+
+* Now we can use the "/add-message" query to add text to our webpage. The webpage would look like:
 
 ![Image](hello.png)
 
-In the above image, when we succeed the url with “/add-message?s=Hello”,the server displays "Hello".
+* In the above image, when we succeed the url with “/add-message?s=Hello”,the server displays "Hello".
+
+* In the image, we can observe that when we append "/add-message?s=Hello" to the URL, the server responds by displaying the word "Hello". This occurs because when we enter the mentioned URL, it triggers the execution of the "handleRequest" method with the URL as the parameter. The method follows a sequence of conditions to determine the appropriate response.
+
+* Firstly, it checks if the URL contains the string "/add-message". If this condition is true, it proceeds to create an array called "parameters" by splitting the string using the regular expression "=".
+
+* Next, it verifies if the first element of the array is "s". If this condition is met, it appends the string to a variable called "str" (which was initially empty) and returns the resulting string. However, if any of the conditions are false, the server will display a "404 Not Found" message.
 
 * Next, when we add “Hi”, it displays "Hello" and "Hi" in different lines.
 
 ![Image](hi.png)
+
+* Subsequently, when we add "Hi" to the URL, it displays both "Hello" and "Hi" on separate lines. This behavior occurs because when we added "Hello" to the "str" variable, it also included a new line character. Consequently, when we add "Hi", it is displayed in the subsequent line.
 
 ## PART 2: Bugs
 
