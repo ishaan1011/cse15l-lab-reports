@@ -148,7 +148,7 @@ public class ArrayTests {
 
 * Specifically, in the testMyReversed scenario, the input list is {1, 2, 3}, and the expected output after reversing it should be {3, 2, 1}. However, the actual output shows 0 at index [0] instead of 3.
 
-* This issue might be occurring because there is a bug in the code that changes the given array rather than chaning the new array that we have to return. Also, it then returns the array that was given to us rather than the new reversed array.
+* This issue might be occurring because there is a bug in the code that changes the given array rather than changing the new array that we have to return. Also, it then returns the array that was given to us rather than the new reversed array.
 
 Symptom:
 
