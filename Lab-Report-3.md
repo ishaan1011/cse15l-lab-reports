@@ -83,7 +83,7 @@ Output: This command does not produce any output, but it deletes all the text fi
 
 * But, we can see that all the text files are deleted using the `-type` command.
 
-![Image](4-1-2.png)
+![Image](4-1-2(2).png)
 
 **Example 2:** Find all directories in the `./technical` directory and list their contents.
 
