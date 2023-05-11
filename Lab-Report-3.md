@@ -1,6 +1,6 @@
 # Lab Report 3 - Researching Commands
 
-I'll focus on the `find` command and provide you with four interesting command-line options or alternate ways to use it. Here are the examples:
+**I'll focus on the `find` command and provide you with four interesting command-line options or alternate ways to use it. Here are the examples:**
 
 ### `-type`
 
@@ -25,7 +25,7 @@ Output:
 *Source: I found this option in the `find` command manual page. You can access the manual by running `man find` in the terminal.*
 
 
-## `-name`
+### `-name`
 
 The `-name` option allows you to search for files or directories with a specific name or pattern. It supports wildcard characters such as `*` (matches any characters) and `?` (matches any single character).
 
@@ -48,7 +48,7 @@ Output:
 *Source: I found this option in the `find` command manual page. You can access the manual by running `man find` in the terminal.*
 
 
-## `-size`
+### `-size`
 
 The `-size` option allows you to search for files based on their size. You can specify the size in bytes, kilobytes, megabytes, or gigabytes using a suffix (`c`, `k`, `M`, `G`).
 
@@ -71,7 +71,7 @@ Output:
 *Source: I found this option in the `find` command manual page. You can access the manual by running `man find` in the terminal.*
 
 
-## `-exec`
+### `-exec`
 
 The `-exec` option allows you to execute a command on the found files or directories. It is useful when you want to perform additional actions on the results of the `find` command.
 
