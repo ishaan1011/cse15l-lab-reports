@@ -29,7 +29,7 @@ Output:
 
 The `-name` option allows you to search for files or directories with a specific name or pattern. It supports wildcard characters such as `*` (matches any characters) and `?` (matches any single character).
 
-**Example 1:** Find all files with names starting with "file" in the `./technical` directory.
+**Example 1:** Find all files with names starting with "chapter" in the `./technical` directory.
 
 ![Image](2-1-1.png)
 
@@ -37,7 +37,7 @@ Output:
 
 ![Image](2-1-2.png)
 
-**Example 2:** Find all directories with names ending in "dir" in the `./technical` directory.
+**Example 2:** Find all directories with names starting with "bio" in the `./technical` directory.
 
 ![Image](2-2-1.png)
 
