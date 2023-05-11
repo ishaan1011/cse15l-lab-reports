@@ -81,6 +81,10 @@ The `-exec` option allows you to execute a command on the found files or directo
 
 Output: This command does not produce any output, but it deletes all the text files in the `./technical` directory.
 
+* But, we can see that all the text files are deleted using the `-type` command.
+
+![Image](4-1-2.png)
+
 **Example 2:** Find all directories in the `./technical` directory and list their contents.
 
 ![Image](4-2-1.png)
