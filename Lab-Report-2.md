@@ -174,11 +174,9 @@ static int[] reversed(int[] arr) {
 
 The following modifications were implemented to address the bugs:
 
-1. The range of the variable "i" was adjusted from "i < arr.length" to "i < arr.length/2". This change ensures that the loop only iterates over the first half of the array.
+1. The line with "arr[i] = newArray[arr.length -i -1]" was flipped around to "newArray[arr.length - i - 1] = arr[i]" because in java, the left hand side is the side that gets modified. And here, rather than modifying the original array, we change the array that we need to return.
 
-2. A new temporary variable named "temp" was introduced with the line "int temp = arr[i];". This variable serves the purpose of temporarily storing an element from the first half of the array.
-
-3. A new line "arr[arr.length-i-1] = temp;" was added. This line allows us to assign elements to two different indexes within the array in a single iteration. It facilitates the process of storing the first half in the temporary variable and simultaneously copying the second half to the first half. Finally, the temporary variable is copied back to the second half of the list.
+2. Rather than return arr, which is the original array that was given to us, we return newArray, which is the modifed reversed array.
 
 By implementing these changes, the bugs were addressed, and all the tests are expected to pass successfully.
 
