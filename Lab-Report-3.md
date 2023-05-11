@@ -29,7 +29,7 @@ Output:
 
 The `-name` option allows you to search for files or directories with a specific name or pattern. It supports wildcard characters such as `*` (matches any characters) and `?` (matches any single character).
 
-**Example 1:** Find all files with names starting with "chapter" in the `./technical` directory.
+**Example 1:** Find all files with names starting with "chapter" in the `./technical/911report` directory.
 
 ![Image](2-1-1.png)
 
@@ -52,7 +52,7 @@ Output:
 
 The `-size` option allows you to search for files based on their size. You can specify the size in bytes, kilobytes, megabytes, or gigabytes using a suffix (`c`, `k`, `M`, `G`).
 
-**Example 1:** Find all files larger than 1MB in the `./technical` directory.
+**Example 1:** Find all files larger than 100 kilobytes in the `./technical/911report` directory.
 
 ![Image](3-1-1.png)
 
@@ -60,7 +60,7 @@ Output:
 
 ![Image](3-1-2.png)
 
-**Example 2:** Find all files smaller than 100 kilobytes in the `./technical` directory.
+**Example 2:** Find all files smaller than 10MB in the `./technical/911report` directory.
 
 ![Image](3-2-1.png)
 
