@@ -152,13 +152,13 @@ public class ArrayTests {
 
 Symptom:
 
-![Image](tests2.png)
+![Image](error.png)
 
 * Furthermore, we can observe an input that does not lead to a failure, even if the code is incorrect. This particular input consists of an empty list. In this case, the for loop doesn't run and thus, the error in the code is not reflected.
 
 Symptom:
 
-![Image](tests.png)
+![Image](passed.png)
 
 To fix this bug we need to change the method a bit
 
@@ -180,7 +180,7 @@ The following modifications were implemented to address the bugs:
 
 By implementing these changes, the bugs were addressed, and all the tests are expected to pass successfully.
 
-![Image](tests.png)
+![Image](final.png)
 
 ## PART 3: What I Learned
 
