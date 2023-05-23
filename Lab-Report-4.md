@@ -8,7 +8,7 @@ Start the timer.
 
 * Open terminal and type the command `ssh cs15lsp23__@ieng6.ucsd.edu` (replace __ with your course specific account)
 
-!Image[login.png]
+![Image](login.png)
 
 ## STEP 5 - Clone the Fork
 
@@ -17,7 +17,7 @@ Start the timer.
 * Press < Command V > to paste the copied link.
 * Press < Enter > to clone this repository.
 
-!Image[git.png]
+![Image](git.png)
 
 ## STEP 6 - Run Tests
 
@@ -25,7 +25,7 @@ Start the timer.
 * Enter `bash test.sh` in order to run the files in this directory.
 * As we can see below, 2 tests ran and 1 failed.
 
-!Image[bash.png]
+![Image](bash.png)
 
 ## STEP 7 - Fixing The Code
 
@@ -39,7 +39,7 @@ Start the timer.
 * Click on <esc>.
 * Press `:wq` to exit the vim file.
   
-!Image[vim.png]
+![Image](vim.png)
   
 ## STEP 8 - Run The Tests
 
@@ -47,9 +47,15 @@ Start the timer.
 * Enter `bash test.sh` in order to run the files in this directory using the 'up arrow' twice.
 * We can see that there are no errors this time.
   
-!Image[fixed.png]
+![Image](fixed.png)
   
 ## STEP 9 - Committing And Pushing The Changes
+  
+* Type `git add` in the terminal to make the changes we made available to commit.
+* Then type `git commit -m "Committed" to commit the changes.
+* Then push the changes into the repository by typing `git push`.
+
+![Image](committed.png)
 
 
   
