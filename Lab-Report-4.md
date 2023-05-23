@@ -41,5 +41,16 @@ Start the timer.
   
 !Image[vim.png]
   
-## STEP 8 - R
+## STEP 8 - Run The Tests
+
+* Enter `vim ListExamples.java` again by pressing the 'up arrow' twice.
+* Enter `bash test.sh` in order to run the files in this directory using the 'up arrow' twice.
+* We can see that there are no errors this time.
+  
+!Image[fixed.png]
+  
+## STEP 9 - Committing And Pushing The Changes
+
+
+  
 
