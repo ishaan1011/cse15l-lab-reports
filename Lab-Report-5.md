@@ -34,3 +34,4 @@ By implementing these changes, the bugs were addressed, and all the tests are ex
 
 ![Image](final.png)
 
+# Part 2 – Reflection
