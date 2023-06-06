@@ -1,7 +1,6 @@
-*Part 1 – Debugging Scenario
+# Part 1 – Debugging Scenario
 
-TA's Response:
 
-Title: Possible Issue with Input File
+* The image above displays the original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
 
-Hi there! Thanks for reaching out. The error message seems to indicate an issue with the input file. Could you please try running the cat command on the file and check if it displays the contents correctly? You can use the following command:
+* **TA's Response:** "Hi there! Thanks for reaching out. The error message seems to indicate an issue with the "Reversed" method of the "ArrayExamples" class. 
