@@ -37,3 +37,7 @@ By implementing these changes, the bugs were addressed, and all the tests are ex
 ![Image](final.png)
 
 ## Part 2 – Reflection
+
+During the second half of the quarter, I learned about the power and versatility of Bash scripting. It allowed me to automate repetitive tasks, manipulate files and directories, and interact with command-line tools more efficiently. I discovered how to write loops, conditionals, and functions in Bash, enabling me to create complex scripts that streamlined various processes. Learning Bash scripting opened up a new world of possibilities for automating tasks and increased my productivity in working with the command line.
+
+# THANK YOU FOR A GREAT QUARTER!
