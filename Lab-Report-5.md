@@ -1,4 +1,6 @@
-# Part 1 – Debugging Scenario
+# Common Debugging Scenarios
+
+## Part 1 – Debugging Scenario
 
 * **Student's Response:** The image below displays the original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
 
@@ -34,4 +36,4 @@ By implementing these changes, the bugs were addressed, and all the tests are ex
 
 ![Image](final.png)
 
-# Part 2 – Reflection
+## Part 2 – Reflection
